@@ -1,3 +1,17 @@
+nav a {
+    color: solid black;
+    display: block;
+}
+
+h1 {
+    color: solid blue;
+}
+
+nav {
+    background-color: bisque;
+    padding: 0px;
+}
+
 main {
     max-width: 840px;
 }
@@ -14,11 +28,16 @@ aside {
 aside img {
     width: 200px;
     height: auto;
+    border: 20px;
+    padding: 10px;
 }
 
 main img {
     width: 200px;
     height: auto;
+    border: 10px;
+    padding: 10px;
+    box-shadow: #000;
 }
 
 p {
