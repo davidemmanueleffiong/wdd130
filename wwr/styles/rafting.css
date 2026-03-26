@@ -118,7 +118,6 @@ main p {
 
 footer {
     border-top: 1px solid black;
-    text-align: top;
     margin-top: 15px;
     padding: 0px;
     display: flex;
