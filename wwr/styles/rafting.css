@@ -97,22 +97,30 @@ main p {
     border-radius: 10px;
 }
 
-.paragraph1,
-article p {
-    display: flex;
-    background-color: beige;
-    border-radius: 30px;
-
-}
-
 .hero article {
     position: absolute;
     top: 330px;
-    left: 60px;
-    max-width: 1200%;
-    background-color: rgba(red, green, blue, alpha);
-    padding: 25px 30px;
+    max-width: 200%;
+    background-color: var(--secondary-color);
+    padding: 0px;
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
+}
+
+.paragraph1 h2,
+.paragraph2 h2 {
+    background-color: var(--accent2color);
+    display: flex;
+    justify-content: center;
+
+}
+
+footer {
+    border-top: 1px solid black;
+    text-align: top;
+    margin-top: 15px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column-reverse;
 }
