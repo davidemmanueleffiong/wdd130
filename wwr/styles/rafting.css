@@ -44,7 +44,7 @@ article {
 
 }
 
-.social-media ul {
+.socialmedia ul {
     display: flex;
     gap: 20px;
     flex-direction: row;
@@ -52,11 +52,11 @@ article {
     padding: 0;
 }
 
-.social-media a {
+.socialmedia a {
     text-decoration: none;
 }
 
-.social-media img {
+.socialmedia img {
     width: 40px;
     height: auto;
 }
