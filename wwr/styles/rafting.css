@@ -75,7 +75,9 @@ h1 {
     position: absolute;
     top: 20px;
     width: 100%;
-    padding: 16px;
+    padding: 10px 30px;
+    margin: 0;
+    font-size: 2.2rem;
     text-align: center;
     opacity: 0.7;
     background-color: var(--accent1-color);
@@ -86,12 +88,13 @@ h1 {
 .hero article img {
     float: right;
     width: 125px;
+    margin-left: 15px;
+    border-radius: 10px;
 }
 
 main p {
     border: 20px;
     border-radius: 10px;
-    padding: 20px;
 }
 
 .paragraph1,
@@ -99,5 +102,17 @@ article p {
     display: flex;
     background-color: beige;
     border-radius: 30px;
-    flex-wrap: wrap;
+
+}
+
+.hero article {
+    position: absolute;
+    top: 330px;
+    left: 60px;
+    max-width: 1200%;
+    background-color: rgba(red, green, blue, alpha);
+    padding: 25px 30px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
 }
