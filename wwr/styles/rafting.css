@@ -25,7 +25,7 @@ body {
 header,
 main,
 footer {
-    width: 840px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 
@@ -139,7 +139,7 @@ main p {
 
 .hero article {
     position: absolute;
-    top: 330px;
+    top: 450px;
     max-width: 200%;
     background-color: var(--secondary-color);
     padding: 0px;
@@ -173,8 +173,7 @@ main p {
 }
 
 .adventure-gallery img {
-    max-width: 1000px;
-    width: 150px;
+    width: 100%;
 }
 
 .adventure-gallery {
