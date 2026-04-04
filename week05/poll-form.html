@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="name UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Exercise</title>
+</head>
+<body>
+    <header>
+        <h1>WDD 130 HTML Form-User Poll</h1>
+    </header>
+    <main>
+        <form>
+            <label for="fullname">Full Name: <input type="text" id="fullname" name="fullname" required placeholder="David Emmanuel"></label>
+            <label for="useremail">Email: <input type=email id="useremail" name="useremail" required></label>
+
+            <label for="userbrowser">What is your favorite browser?</label>
+            <select id="browser" name="browser">
+                <option value="1">Safari</option>
+                <option value="2">Chrome</option>
+                <option value="3">Microsoft Edge</option>
+                <option value="4">Avast Secure  Browser</option>
+            </select>
+
+            <label for="pet">Do you have a house old pet?</label>
+            <input type="checkbox" id="pet" name="pet">
+
+            <label for="feedback">List the place that you lived?</label>
+            <textarea id="feedback" name="feedback" rows="4" placeholder="Stillwater Florida, Amsterdan Netherlands, Timbuktu Mali"></textarea>
+
+            <button type="submit">Submit Poll</button>
+        </form>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
