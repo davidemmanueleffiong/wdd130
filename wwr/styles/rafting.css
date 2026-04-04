@@ -146,8 +146,13 @@ footer {
 }
 
 h2 {
-    padding: 1rem;
+    padding: 0.5rem;
     text-align: center;
-    background-color: var(--accent1-color);
     color: var(--secondary-color);
+}
+
+.history h2,
+.adventure h2 {
+    background-color: var(--secondary-color);
+    color: white;
 }
