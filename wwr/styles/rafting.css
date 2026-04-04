@@ -147,7 +147,7 @@ footer {
 h2 {
     padding: 0.5rem;
     text-align: center;
-    color: var(--accent2-color);
+    color: #fff;
 }
 
 .history h2,
