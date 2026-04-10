@@ -3,32 +3,120 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Explore Exciting whitewater rafting adventures with expert guides. Enjoy safe fun, and unforgettable experiences on beautiful rivers  for all skill levels.">
+    <meta name="description" content="Explore exciting whitewater rafting adventures with expert guides. Enjoy safe, fun, and unforgettable experiences on beautiful rivers for all skill levels.">
     <meta name="author" content="David Emmanuel">
     <title>Home | RapidFlow Rafting</title>
+    <link rel="stylesheet" href="styles/rafting.css">
 </head>
 <body>
-     <!-- HEADER -->
+
+  <!-- HEADER -->
   <header>
     <div class="header-inner">
       <img src="images/rafting-logo.png" alt="RapidFlow logo">
     </div>
-    <nav>
+    <nav class="page-content">
       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About Us</a></li>
         <li><a href="trips.html">Trips</a></li>
-        <li><a href="contact.html" class="active">Contact Us</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
       </ul>
+    </nav>
   </header>
 
-    <main>
+  <main>
 
-    </main>
+    <!-- HERO: full-width image with absolutely positioned heading -->
+    <div class="hero">
+      <img src="images/rafting4.jpg" alt="Whitewater rafting adventure">
+      <h1>Have An Adventure</h1>
+      <p class="hero-tagline">Make Memories with RapidFlow</p>
+    </div>
 
-    <footer>
+    <!-- CALL TO ACTION: links to trips.html -->
+    <section class="cta-section">
+      <div class="cta-content">
+        <h2>Ready to Hit the Rapids?</h2>
+        <p>Browse our exciting trip packages — from gentle family floats to heart-pounding Class 3 rapids. There is an adventure for every level.</p>
+        <a href="trips.html" class="cta-btn">Explore Our Trips</a>
+      </div>
+    </section>
 
-    </footer>
+    <!-- CSS GRID SECTION: at least 2 images + content (requirement) -->
+    <section class="offerings">
+      <h2 class="section-title">Why Choose RapidFlow?</h2>
+      <div class="offerings-grid">
+
+        <div class="offering-card">
+          <img src="images/rafting1.jpg" alt="Expert guides leading a rafting group">
+          <div class="offering-text">
+            <h3>Expert Guides</h3>
+            <p>Our certified guides bring years of river experience and safety training to every trip, so you can focus entirely on the thrill.</p>
+          </div>
+        </div>
+
+        <div class="offering-card">
+          <img src="images/rafting2.jpg" alt="Family enjoying a calm river float">
+          <div class="offering-text">
+            <h3>All Skill Levels</h3>
+            <p>Whether you are a first-timer or a seasoned paddler, we have the perfect trip — from calm scenic floats to wild white-water runs.</p>
+          </div>
+        </div>
+
+        <div class="offering-card">
+          <img src="images/rafting3.jpg" alt="Scenic river views on a rafting trip">
+          <div class="offering-text">
+            <h3>Breathtaking Scenery</h3>
+            <p>Paddle through stunning natural landscapes, pristine river gorges, and wildlife-rich environments found nowhere else.</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- NEWSLETTER SIGNUP FORM -->
+    <section class="newsletter-section">
+      <div class="newsletter-inner">
+        <h2>Stay in the Current</h2>
+        <p>Sign up for our monthly newsletter to get trip updates, early-bird deals, and river safety tips.</p>
+        <form class="contact-form2" action="#" method="post">
+          <div class="user-input">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" placeholder="e.g. John Doe" required>
+          </div>
+          <div class="user-input">
+            <label for="user-email">Your Email:</label>
+            <input type="email" id="user-email" name="user-email" placeholder="your@email.com" required>
+          </div>
+          <div class="newsletter-row">
+            <input type="checkbox" id="newsletter" name="newsletter">
+            <label for="newsletter">Subscribe me to the monthly newsletter</label>
+          </div>
+          <button type="submit">Sign Up</button>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-inner">
+      <p>© 2026 | RapidFlow White Water Rafting Company | Nigeria</p>
+      <nav class="social-media">
+        <a href="https://facebook.com">
+          <img src="images/facebook.png" alt="Facebook Icon" width="30">
+        </a>
+        <a href="https://linkedin.com">
+          <img src="images/linkedin.png" alt="LinkedIn Icon" width="30">
+        </a>
+        <a href="https://instagram.com">
+          <img src="images/instagram.png" alt="Instagram Icon" width="30">
+        </a>
+      </nav>
+    </div>
+  </footer>
 
 </body>
 </html>

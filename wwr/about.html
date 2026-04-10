@@ -3,103 +3,137 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Our mission is to provide safe, exciting, and unforgettable white water rafting experiences for adventurers of all skill levels.">
+    <meta name="description" content="Learn about RapidFlow Rafting — our mission, our story, and the passionate team that makes every rafting adventure safe and unforgettable.">
     <title>About Us | RapidFlow Rafting</title>
     <meta name="author" content="David Emmanuel">
     <link rel="stylesheet" href="styles/rafting.css">
 </head>
 <body>
- <!-- HEADER -->
+
+  <!-- HEADER -->
   <header>
     <div class="header-inner">
       <img src="images/rafting-logo.png" alt="RapidFlow logo">
     </div>
-
     <nav class="page-content">
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="trips.html">Trips</a></li>
-            <li><a href="contact.html" class="active">Contact Us</a></li>
-        </ul>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="trips.html">Trips</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
     </nav>
   </header>
- 
-    <main>
-        <div class="hero">
-            <img src="images/water.jpg" alt="Image of water">
-            <h1>RapidFlow White Water Rafting</h1>
-            <article>
-                <h2>Our Mission</h2>
-                <img src="images/happy-image.jpg" alt="Happy image of a client">
-                <p>
-                    Our mission is to provide safe, exciting, and unforgettable white water rafting experiences for adventurers of all skill levels. 
-                    We are committed to delivering fun, teamwork, and respect for nature while ensuring the highest safety standards on every trip.
-                </p>
-            </article>  
+
+  <main>
+
+    <!-- HERO -->
+    <div class="hero">
+      <img src="images/water.jpg" alt="Beautiful river rapids at RapidFlow">
+      <h1>RapidFlow White Water Rafting</h1>
+    </div>
+
+    <!-- MISSION SECTION: two-column layout -->
+    <section class="about-mission">
+      <div class="about-mission-grid">
+        <div class="mission-text">
+          <h2 class="about-h2">Our Mission</h2>
+          <p>Our mission is to provide safe, exciting, and unforgettable white water rafting experiences for adventurers of all skill levels. We are committed to delivering fun, teamwork, and respect for nature while ensuring the highest safety standards on every trip.</p>
+          <p>Every river we navigate is treated with deep respect — for the environment, for the communities around it, and for every guest who steps into our rafts.</p>
         </div>
-        <section class="history">
-            <h2>History</h2>
-            
-            <div class="history-content">
-            <p>
-                RapidFlow Rafting started as a small group of outdoor enthusiasts who loved 
-                rivers and adventure. What began as weekend trips quickly grew into a 
-                professional rafting company.
-            </p>
-
-            <img src="images/image.jpg" alt="rafting image">
-            <p>
-                Today, we offer guided rafting tours for all experience levels, focusing on 
-                safety, fun, and unforgettable outdoor experiences.
-            </p>
-            </div>
-        </section>
-        <section class="adventure">
-            <h2>Adventure Awaits You!</h2>
-            <div class="adventure-gallery">
-                <figure>
-                    <img src="images/rafting1.jpg" alt="Rafting on a fast river">
-                    <figcaption>Team Adventure</figcaption>
-                </figure>
-
-                <figure>
-                    <img src="images/rafting2.jpg" alt="rafting image 2">
-                    <figcaption>River Rush</figcaption>
-                </figure>
-
-                <figure>
-                    <img src="images/rafting3.jpg" alt="rafting image 3">
-                    <figcaption>Wild Rapids</figcaption>
-                </figure>
-
-                <figure>
-                    <img src="images/rafting4.jpg" alt="rafting image 4">
-                    <figcaption>Nature Experience</figcaption>
-                </figure>
-
-                <figure>
-                    <img src="images/rafting5.jpg" alt="rafting image 5">
-                    <figcaption>Group Fun</figcaption>
-                </figure>
-            </div>
-        </section>
-    </main>
-    <footer>
-        <div class="footer-inner">
-            <p>© 2026 | RapidFlow White Water Rafting Company | Nigeria</p>
-            <div class="social-media">
-                <a href="https://facebook.com">
-                    <img src="images/facebook.png" alt="Facebook Icon" width="30">
-                </a>
-                <a href="https://linkedin.com">
-                    <img src="images/linkedin.png" alt="LinkedIn Icon" width="30">
-                </a>
-                <a href="https://instagram.com">
-                    <img src="images/instagram.png" alt="Instagram Icon" width="30">
-                </a>   
-            </div>
+        <div class="mission-image">
+          <img src="images/happy-image.jpg" alt="Happy RapidFlow clients on the river">
         </div>
-    </footer>
+      </div>
+    </section>
+
+    <!-- HISTORY SECTION: two-column layout -->
+    <section class="about-history">
+      <div class="about-history-grid">
+        <div class="history-image">
+          <img src="images/image.jpg" alt="Early days of RapidFlow Rafting">
+        </div>
+        <div class="history-text">
+          <h2 class="about-h2">Our Story</h2>
+          <p>RapidFlow Rafting started as a small group of outdoor enthusiasts who loved rivers and adventure. What began as weekend trips with friends quickly grew into a professional rafting company with a reputation for safety and excitement.</p>
+          <p>Today, we offer guided rafting tours for all experience levels, focusing on safety, fun, and unforgettable outdoor experiences. From our humble beginnings to becoming one of Nigeria's leading adventure outfitters, our passion for the water has never wavered.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ADVENTURE GALLERY: CSS Grid -->
+    <section class="about-gallery">
+      <h2 class="about-h2 gallery-title">Adventure Awaits You!</h2>
+      <div class="gallery-grid">
+
+        <figure class="gallery-item gallery-item--wide">
+          <img src="images/rafting1.jpg" alt="Team adventure rafting on fast river">
+          <figcaption>Team Adventure</figcaption>
+        </figure>
+
+        <figure class="gallery-item">
+          <img src="images/rafting2.jpg" alt="River Rush rafting experience">
+          <figcaption>River Rush</figcaption>
+        </figure>
+
+        <figure class="gallery-item">
+          <img src="images/rafting3.jpg" alt="Wild rapids challenge">
+          <figcaption>Wild Rapids</figcaption>
+        </figure>
+
+        <figure class="gallery-item">
+          <img src="images/rafting4.jpg" alt="Beautiful nature experience on the river">
+          <figcaption>Nature Experience</figcaption>
+        </figure>
+
+        <figure class="gallery-item">
+          <img src="images/rafting5.jpg" alt="Group fun on the water">
+          <figcaption>Group Fun</figcaption>
+        </figure>
+
+      </div>
+    </section>
+
+    <!-- VALUES STRIP: three-column grid -->
+    <section class="about-values">
+      <div class="values-grid">
+        <div class="value-card">
+          <div class="value-icon">🛡️</div>
+          <h3>Safety First</h3>
+          <p>Every guide is certified and every trip is planned with your safety as the top priority.</p>
+        </div>
+        <div class="value-card">
+          <div class="value-icon">🌿</div>
+          <h3>Respect for Nature</h3>
+          <p>We follow leave-no-trace principles and actively support river conservation efforts.</p>
+        </div>
+        <div class="value-card">
+          <div class="value-icon">🤝</div>
+          <h3>Teamwork</h3>
+          <p>Rafting is a team sport. We build camaraderie and trust on every stretch of river.</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-inner">
+      <p>© 2026 | RapidFlow White Water Rafting Company | Nigeria</p>
+      <nav class="social-media">
+        <a href="https://facebook.com">
+          <img src="images/facebook.png" alt="Facebook Icon" width="30">
+        </a>
+        <a href="https://linkedin.com">
+          <img src="images/linkedin.png" alt="LinkedIn Icon" width="30">
+        </a>
+        <a href="https://instagram.com">
+          <img src="images/instagram.png" alt="Instagram Icon" width="30">
+        </a>
+      </nav>
+    </div>
+  </footer>
+
 </body>
 </html>

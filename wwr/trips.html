@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Explore Exciting whitewater rafting adventures with expert guides. Enjoy safe fun, and unforgettable experiences on beautiful rivers  for all skill levels.">
+    <meta name="description" content="Discover RapidFlow Rafting trip packages for all skill levels — from relaxing family floats to thrilling Class 3 rapids. Book your adventure today.">
     <meta name="author" content="David Emmanuel">
     <title>Trips | RapidFlow Rafting</title>
     <link rel="stylesheet" href="styles/rafting.css">
 </head>
 <body>
-     <!-- HEADER -->
+
+  <!-- HEADER -->
   <header>
     <div class="header-inner">
       <img src="images/rafting-logo.png" alt="RapidFlow logo">
@@ -19,86 +20,151 @@
         <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About Us</a></li>
         <li><a href="trips.html">Trips</a></li>
-        <li><a href="contact.html" class="active">Contact Us</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
       </ul>
     </nav>
   </header>
-      <!-- MAIN -->
-    <main>
-      <div class="hero">
-        <img  src="images/water.jpg" alt="rafting image">
-        <h1>RapidFlow WhiteWater Rafting</h1>
-      </div>
-      <div class="contact-btn">
-        <a href="contact.html" class="btn">Contact Us</a>
-      </div>
-    
-      <div class="table-outline">
-        <div class="table-heading">
-          <h2>Rafting Trips Summary</h2>
-        </div>
-        <div class="table">
-          <table>
-            <thead>
-              <tr>
-                <th>Trip Length</th>
-                <th>Cost</th>
-                <th>Trip Name</th>
-              <tr/>
-            </thead>
-            <tbody>
-              <tr>
-                <td>1/2 Day Class1</td>
-                <td>$300</td>
-                <td>Lazy Family Adventure</td>
-              </tr>
-              <tr>
-                <td>1/2 Day Class 2</td>
-                <td>$500</td>
-                <td>Family Teenage Children</td>
-              </tr>
-              <tr>
-                <td>1 Day Class 1</td>
-                <td>$500</td>
-                <td>Scenic Relaxing Adventure</td>  
-              </tr>
-              <tr>
-                <td>1 Day Class 2</td>
-                <td>$700</td>
-                <td>Adventure With Class 2 Rapids</td>
-              </tr>
-              <tr>
-                <td>2 Day Class 1</td>
-                <td>$1000</td>
-                <td>Relaxing Extended Scenic Adventure</td>
-              </tr>
-              <tr>
-                <td>2 Day Class 3</td>
-                <td>$1200</td>
-                <td>Adventure with Class 3 Rapids</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </div>
-    </main>
 
-        <!-- FOOTER -->
-    <footer>
-        <div class="footer-inner">
-            <p>© 2026 | RapidFlow White Water Rafting Company | Nigeria</p>
-            <nav class="social-media">
-                <a href="https://facebook.com">
-                    <img src="images/facebook.png" alt="Facebook Icon" width="30">
-                </a>
-                <a href="https://linkedin.com">
-                    <img src="images/linkedin.png" alt="LinkedIn Icon" width="30">
-                </a>
-                <a href="https://instagram.com">
-                    <img src="images/instagram.png" alt="Instagram Icon" width="30">
-                </a>   
-            </nav>
-        </div>
-    </footer>
+  <!-- MAIN -->
+  <main>
+
+    <!-- HERO -->
+    <div class="hero">
+      <img src="images/water.jpg" alt="Beautiful river rapids">
+      <h1>RapidFlow Whitewater Rafting</h1>
+    </div>
+
+    <!-- CALL TO ACTION: opens contact.html -->
+    <section class="cta-section">
+      <div class="cta-content">
+        <h2>Questions? Ready to Book?</h2>
+        <p>Our team is happy to help you choose the right trip, check availability, or answer any questions you have.</p>
+        <a href="contact.html" class="cta-btn">Contact Us</a>
+      </div>
+    </section>
+
+    <!-- TRIP DESCRIPTIONS: at least 3, with photos, in a grid layout -->
+    <section class="trips-section">
+      <h2 class="section-title">Our Featured Trips</h2>
+      <div class="trips-grid">
+
+        <article class="trip-card">
+          <!-- Replace with your own trip image -->
+          <img src="images/rafting1.jpg" alt="Lazy Family Adventure rafting trip">
+          <div class="trip-info">
+            <span class="trip-badge">Class 1 · Half Day</span>
+            <h3>Lazy Family Adventure</h3>
+            <p>Perfect for families with younger children, this gentle float along calm waters offers stunning scenery and fun for everyone. No experience needed.</p>
+            <p class="trip-price">From <strong>$300</strong> per person</p>
+          </div>
+        </article>
+
+        <article class="trip-card">
+          <!-- Replace with your own trip image -->
+          <img src="images/rafting2.jpg" alt="Teenage Adventure rafting trip">
+          <div class="trip-info">
+            <span class="trip-badge">Class 2 · Half Day</span>
+            <h3>Family Teenage Adventure</h3>
+            <p>Designed for families with older kids who crave a bit more excitement. Expect light rapids, splashing fun, and memories that last a lifetime.</p>
+            <p class="trip-price">From <strong>$500</strong> per person</p>
+          </div>
+        </article>
+
+        <article class="trip-card">
+          <!-- Replace with your own trip image -->
+          <img src="images/rafting3.jpg" alt="Wild Rapids Class 3 trip">
+          <div class="trip-info">
+            <span class="trip-badge">Class 3 · 2 Days</span>
+            <h3>Wild Rapids Challenge</h3>
+            <p>For the thrill-seekers. Navigate powerful Class 3 rapids across a two-day journey through rugged terrain with our expert guides by your side.</p>
+            <p class="trip-price">From <strong>$1,200</strong> per person</p>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- TRIPS SUMMARY TABLE -->
+    <section class="table-outline">
+      <div class="table-heading">
+        <h2>All Available Trips</h2>
+      </div>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Trip Name</th>
+              <th>Duration</th>
+              <th>Difficulty</th>
+              <th>Cost (per person)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Lazy Family Adventure</td>
+              <td>Half Day</td>
+              <td>Class 1</td>
+              <td>$300</td>
+            </tr>
+            <tr>
+              <td>Family Teenage Children</td>
+              <td>Half Day</td>
+              <td>Class 2</td>
+              <td>$500</td>
+            </tr>
+            <tr>
+              <td>Scenic Relaxing Adventure</td>
+              <td>1 Day</td>
+              <td>Class 1</td>
+              <td>$500</td>
+            </tr>
+            <tr>
+              <td>Adventure with Class 2 Rapids</td>
+              <td>1 Day</td>
+              <td>Class 2</td>
+              <td>$700</td>
+            </tr>
+            <tr>
+              <td>Relaxing Extended Scenic Adventure</td>
+              <td>2 Days</td>
+              <td>Class 1</td>
+              <td>$1,000</td>
+            </tr>
+            <tr>
+              <td>Adventure with Class 3 Rapids</td>
+              <td>2 Days</td>
+              <td>Class 3</td>
+              <td>$1,200</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td colspan="4">All trips include safety equipment, expert guide, and post-trip refreshments.</td>
+            </tr>
+          </tfoot>
+        </table>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-inner">
+      <p>© 2026 | RapidFlow White Water Rafting Company | Nigeria</p>
+      <nav class="social-media">
+        <a href="https://facebook.com">
+          <img src="images/facebook.png" alt="Facebook Icon" width="30">
+        </a>
+        <a href="https://linkedin.com">
+          <img src="images/linkedin.png" alt="LinkedIn Icon" width="30">
+        </a>
+        <a href="https://instagram.com">
+          <img src="images/instagram.png" alt="Instagram Icon" width="30">
+        </a>
+      </nav>
+    </div>
+  </footer>
+
 </body>
 </html>
